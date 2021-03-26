@@ -77,17 +77,19 @@ h1 {
 .big-body-container {
   display: flex;
   justify-content: flex-end;
-  align-content: stretch;
+  align-content: center;
 }
 
 .body-container {
   border: 2px solid green;
-  align-content: stretch;
+  align-content: center;
   display: flex;
   height: 100%;
   width: 100%;
   flex-direction: column;
   justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 
 }
 
@@ -109,6 +111,28 @@ button {
   width: 80%;
   font-family: 'Roboto Mono', monospace;
 
+}
+
+.projects {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.projects .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects .boxes .box {
+  width: 100px;
+  height: 100px;
+  margin: 20px 2.5%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
 }
 
 .footer-container {
